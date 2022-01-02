@@ -1,12 +1,10 @@
 # 力扣（LeetCode）刷题统计 Excel 模板
 
-本 Excel 统计模板主要用来帮助记录在 LeetCode 刷题过程中所遇到的题目信息、解题情况（比如是否是自己独立解决的、还是看了题解才解决的）、解题耗时以及该题所涉及到的新的知识点。同时设定了相关规则可以对解题情况、耗时等信息进行统计并可视化输出。
-
-仓库地址：[Excel-for-LeetCode-Exercises-Statistics](https://github.com/stranded-fish/Excel-for-LeetCode-Exercises-Statistics)
+本 Excel 统计模板主要用来帮助记录在 LeetCode 刷题过程中所遇到的题目信息、解题情况（比如是否是自己独立解决的、还是看了题解才解决的）、解题耗时以及该题所涉及到的新的知识点。同时利用 Excel 数学函数设定了相关规则，可以自动地对解题情况、平均耗时等信息加以统计，并进行可视化展示。
 
 目前主要有两个模板：
 
-* [力扣打卡记录 - 模板.xlsx](https://github.com/stranded-fish/Excel-for-LeetCode-Exercises-Statistics/blob/main/%E5%8A%9B%E6%89%A3%E6%89%93%E5%8D%A1%E8%AE%B0%E5%BD%95%20-%20%E6%A8%A1%E6%9D%BF.xlsx)，用于记录每日一题打卡或者平常算法练习；
+* [力扣打卡记录 - 模板.xlsx](https://github.com/stranded-fish/Excel-for-LeetCode-Exercises-Statistics/blob/main/%E5%8A%9B%E6%89%A3%E6%89%93%E5%8D%A1%E8%AE%B0%E5%BD%95%20-%20%E6%A8%A1%E6%9D%BF.xlsx)，用于记录每日一题打卡或者平常算法练习。
 * [力扣竞赛记录 - 模板.xlsx](https://github.com/stranded-fish/Excel-for-LeetCode-Exercises-Statistics/blob/main/%E5%8A%9B%E6%89%A3%E7%AB%9E%E8%B5%9B%E8%AE%B0%E5%BD%95%20-%20%E6%A8%A1%E6%9D%BF.xlsx)，用于记录力扣周赛情况。
 
 **eg 1.** 2021 年 10 月每日一题的打卡统计示例：
@@ -41,11 +39,11 @@
 
 * **通过：** 自己独立地在规定时间内编写代码并通过，oh yeh！
 * **超时通过：** 自己独立编写代码通过，但耗时超出了自己的预定时间；
-  * 考虑到一般算法笔试的时间要求，目前将时间上限设定为 30 min，当耗时超过 30 min，耗时字体会变红加以提醒；
+  * 考虑到一般算法笔试的时间要求，目前将时间上限设定为 `30 min`，当耗时超过 `30 min`，耗时字体会变红加以提醒；
 * **提示后通过：** 在查看了题目 `tag` 或者参考了题解思路后，编写代码通过；
-* **CV-未通过：** 最坏的情况，看了题解都还不会做，只能粘贴复制咯；
+* **CV-未通过：** 最坏的情况，看了题解都还不会做，只能粘贴复制咯。
 
-最终所有题目的解题情况都将纳入统计，并输出到表格下方的统计栏中。包括：各种情况的累计数量以及平均耗时。
+最终所有题目的解题情况都将纳入统计，并输出到表格下方的统计栏中，包括：各种情况的累计数量以及平均耗时。
 
 ### 新的知识
 
